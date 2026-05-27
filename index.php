@@ -166,172 +166,160 @@
                             <li>📌 มีความเข้าใจเรื่อง Client-Server Architecture แบบย่อ</li>
                         </ul>
                     </div>
-
                     <div class="right-sidebar-box">
-                        <h3>📊 เกณฑ์การประเมินผลรายวิชา</h3>
-                        <ul>
-                            <li>📝 <strong>เวลาเรียนและจิตพิสัย:</strong> 10%</li>
-                            <li>✍️ <strong>ใบงานและงานปฏิบัติการประจำหน่วย:</strong> 40%</li>
-                            <li>🔥 <strong>การสอบประเมินกลางภาคเรียน:</strong> 20%</li>
-                            <li>🚀 <strong>โปรเจกต์ระบบ Back-End ท้ายภาค:</strong> 30%</li>
-                        </ul>
+                        <h3 class="section-title">📊 เกณฑ์การประเมินผลรายวิชา</h3>
+                        <p style="font-size:0.9rem; color:#475569; margin-bottom:15px;">การวัดผลสัมฤทธิ์ทางการเรียนวิชาการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End แบ่งสัดส่วนคะแนนออกเป็น 4 ส่วนหลักดังนี้:</p>
+
+                        <table class="grading-table" style="width:100%; border-collapse:collapse; font-size:0.9rem;">
+                            <tr style="background:#f8fafc; border-bottom:2px solid #e2e8f0;">
+                                <th style="padding:10px; text-align:left; color:#0f172a;">ส่วนการประเมิน</th>
+                                <th style="padding:10px; text-align:right; color:#0f172a;">สัดส่วน</th>
+                            </tr>
+                            <tr style="border-bottom:1px solid #f1f5f9;">
+                                <td style="padding:10px; color:#475569;">📝 1. คุณธรรม จริยธรรม (จิตพิสัย)</td>
+                                <td style="padding:10px; text-align:right; font-weight:bold; color:#2563eb;">20%</td>
+                            </tr>
+                            <tr style="border-bottom:1px solid #f1f5f9;">
+                                <td style="padding:10px; color:#475569;">✍️ 2. ใบงานปฏิบัติการรายหน่วย</td>
+                                <td style="padding:10px; text-align:right; font-weight:bold; color:#2563eb;">40%</td>
+                            </tr>
+                            <tr style="border-bottom:1px solid #f1f5f9;">
+                                <td style="padding:10px; color:#475569;">🔥 3. โครงงานวิจัยประยุกต์/ชิ้นงาน</td>
+                                <td style="padding:10px; text-align:right; font-weight:bold; color:#2563eb;">20%</td>
+                            </tr>
+                            <tr style="border-bottom:1px solid #f1f5f9;">
+                                <td style="padding:10px; color:#475569;">🚀 4. สอบวัดผลสัมฤทธิ์ปลายภาค</td>
+                                <td style="padding:10px; text-align:right; font-weight:bold; color:#2563eb;">20%</td>
+                            </tr>
+                            <tr style="background:#f1f5f9;">
+                                <td style="padding:10px; font-weight:bold; color:#0f172a;">คะแนนรวมทั้งสิ้น</td>
+                                <td style="padding:10px; text-align:right; font-weight:bold; color:#0f172a;">100%</td>
+                            </tr>
+                        </table>
+
+                        <div style="margin-top:20px; background:#fef3c7; border-left:4px solid #d97706; padding:12px; border-radius:4px; font-size:0.85rem; color:#78350f;">
+                            📝 <strong>สัปดาห์ที่ 16 (สอบปลายภาค):</strong> ทำการประเมินสรุปผลรวม (Summative Assessment) ทดสอบทักษะการ Integration Test และแก้บักโค้ดภาคปฏิบัติจริง
+                        </div>
                     </div>
-
                 </div>
-                <h3 class="section-title">📊 เกณฑ์การประเมินผลรายวิชา</h3>
-                <div class="grading-panel-card" style="background:#fff; border:1px solid #e2e8f0; padding:20px; border-radius:10px;">
-                    <p style="font-size:0.9rem; color:#475569; margin-bottom:15px;">การวัดผลสัมฤทธิ์ทางการเรียนวิชาการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End แบ่งสัดส่วนคะแนนออกเป็น 4 ส่วนหลักดังนี้:</p>
 
-                    <table class="grading-table" style="width:100%; border-collapse:collapse; font-size:0.9rem;">
-                        <tr style="background:#f8fafc; border-bottom:2px solid #e2e8f0;">
-                            <th style="padding:10px; text-align:left; color:#0f172a;">ส่วนการประเมิน</th>
-                            <th style="padding:10px; text-align:right; color:#0f172a;">สัดส่วน</th>
+            </div>
+        </div>
+        <!--  Modal shwo Course -->
+        <div id="specsModal" class="custom-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>📄 เอกสารข้อกำหนดหลักสูตรฐานสมรรถนะรายวิชา</h4>
+                    <span class="close-modal-btn">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <table class="info-meta-table">
+                        <tr>
+                            <td><strong>รายวิชา:</strong></td>
+                            <td>การพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End (Software Development with Back-End Technology)</td>
                         </tr>
-                        <tr style="border-bottom:1px solid #f1f5f9;">
-                            <td style="padding:10px; color:#475569;">1. คุณธรรม จริยธรรม (จิตพิสัย)</td>
-                            <td style="padding:10px; text-align:right; font-weight:bold; color:#2563eb;">20%</td>
+                        <tr>
+                            <td><strong>รหัสวิชา:</strong></td>
+                            <td>31901-2005 (โครงสร้างเวลาเรียน 1 - 4 - 3)</td>
                         </tr>
-                        <tr style="border-bottom:1px solid #f1f5f9;">
-                            <td style="padding:10px; color:#475569;">2. ใบงานปฏิบัติการรายหน่วย (Formative)</td>
-                            <td style="padding:10px; text-align:right; font-weight:bold; color:#2563eb;">40%</td>
+                        <tr>
+                            <td><strong>กลุ่มสมรรถนะ:</strong></td>
+                            <td>วิชาชีพเฉพาะ (กลุ่มสมรรถนะวิชาชีพพื้นฐาน) | <strong>หมวดวิชา:</strong> วิชาชีพ</td>
                         </tr>
-                        <tr style="border-bottom:1px solid #f1f5f9;">
-                            <td style="padding:10px; color:#475569;">3. โครงงานวิจัยประยุกต์/ชิ้นงาน</td>
-                            <td style="padding:10px; text-align:right; font-weight:bold; color:#2563eb;">20%</td>
+                        <tr>
+                            <td><strong>สาขาวิชา:</strong></td>
+                            <td>เทคโนโลยีสารสนเทศ | <strong>กลุ่มอาชีพ:</strong> ซอฟต์แวร์และการประยุกต์</td>
                         </tr>
-                        <tr style="border-bottom:1px solid #f1f5f9;">
-                            <td style="padding:10px; color:#475569;">4. สอบวัดผลสัมฤทธิ์ปลายภาค (สัปดาห์ที่ 16)</td>
-                            <td style="padding:10px; text-align:right; font-weight:bold; color:#2563eb;">20%</td>
+                        <tr>
+                            <td><strong>ประเภทวิชา:</strong></td>
+                            <td>อุตสาหกรรมดิจิทัลและเทคโนโลยีสารสนเทศ</td>
                         </tr>
-                        <tr style="background:#f1f5f9;">
-                            <td style="padding:10px; font-weight:bold; color:#0f172a;">คะแนนรวมทั้งสิ้น</td>
-                            <td style="padding:10px; text-align:right; font-weight:bold; color:#0f172a;">100%</td>
+                        <tr>
+                            <td><strong>หลักสูตร:</strong></td>
+                            <td>ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) พุทธศักราช 2567</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ผู้สอนวิเคราะห์:</strong></td>
+                            <td>นายพรชัย ตุ่นแก้ว วิทยฐานะ ชำนาญการ ประจำแผนกวิชา เทคโนโลยีสารสนเทศ</td>
+                        </tr>
+                        <tr>
+                            <td><strong>กลุ่มเป้าหมาย:</strong></td>
+                            <td>ผู้เรียนชั้น ปวส. 1 แผนกวิชา เทคโนโลยีสารสนเทศ (ภาคเรียนที่ 1 ปีการศึกษา 2569)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>สถานศึกษา:</strong></td>
+                            <td>วิทยาลัยพณิชยการบางนา สถาบันการอาชีวศึกษากรุงเทพมหานคร สำนักงานคณะกรรมการการอาชีวศึกษา กระทรวงศึกษาธิการ</td>
+                        </tr>
+                        <tr>
+                            <td><strong>อ้างอิงมาตรฐาน:</strong></td>
+                            <td>มาตรฐานอาชีพ สถาบันคุณวุฒิวิชาชีพ อาชีพ นักพัฒนาระบบ ระดับ 4</td>
                         </tr>
                     </table>
 
-                    <div style="margin-top:20px; background:#fef3c7; border-left:4px solid #d97706; padding:12px; border-radius:4px; font-size:0.85rem; color:#78350f;">
-                        📝 <strong>สัปดาห์ที่ 16 (สอบปลายภาค):</strong> ทำการประเมินสรุปผลรวม (Summative Assessment) ทดสอบทักษะการ Integration Test และแก้บักโค้ดภาคปฏิบัติจริง
+                    <div class="spec-section-box">
+                        <h5>🎯 ฐานสมรรถนะประจำรายวิชา (Competency Base)</h5>
+                        <p>พัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End เพื่อออกแบบส่วนติดต่อผู้ใช้ตามหลักการ ด้วยความละเอียด รอบคอบ รับผิดชอบ การสื่อสารและการทำงานเป็นทีม โดยใช้การวิจัยเป็นฐานแบบมีส่วนร่วม</p>
+                    </div>
+
+                    <div class="spec-section-box">
+                        <h5>🎯 ผลลัพธ์การเรียนรู้ระดับรายวิชา (Course Learning Outcomes)</h5>
+                        <p>พัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End เพื่อออกแบบส่วนติดต่อผู้ใช้ตามหลักการ ด้วยความละเอียด รอบคอบ รับผิดชอบ การสื่อสารและการทำงานเป็นทีม</p>
+                    </div>
+
+                    <div class="spec-section-box">
+                        <h5>🎯 จุดประสงค์รายวิชา (Course Objectives) เพื่อให้:</h5>
+                        <ol>
+                            <li>เข้าใจการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Front-End</li>
+                            <li>มีทักษะในการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Front-End</li>
+                            <li>มีเจตคติและกิจนิสัยที่ดีในการปฏิบัติงานด้วยความละเอียดรอบคอบ รับผิดชอบ การสื่อสาร การคิดเชิงนวัตกรรมและการทำงานเป็นทีม</li>
+                            <li>มีความสามารถประยุกต์ใช้หลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ในงานอาชีพ</li>
+                        </ol>
+                    </div>
+
+                    <div class="spec-section-box">
+                        <h5>🎯 สมรรถนะรายวิชา (Course Competencies)</h5>
+                        <ol>
+                            <li>ประมวลความรู้เกี่ยวกับหลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ตามหลักการ</li>
+                            <li>พัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ตามหลักการและกระบวนการ</li>
+                            <li>ทดสอบและแก้ไขข้อผิดพลาดของซอฟต์แวร์ ตามหลักการและกระบวนการ</li>
+                            <li>จัดทำคู่มือการใช้งานตามหลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Front-End</li>
+                            <li>ประยุกต์ใช้หลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ในงานอาชีพ</li>
+                        </ol>
+                    </div>
+
+                    <div class="spec-section-box">
+                        <h5>📖 คำอธิบายรายวิชา (Course Description)</h5>
+                        <p style="text-indent: 40px; text-align: justify; line-height: 1.7;">
+                            ศึกษาและปฏิบัติเกี่ยวกับหลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ความหมาย ความสำคัญ ประโยชน์ของการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End เลือกใช้ภาษาและเทคโนโลยีสมัยใหม่ในการพัฒนา (Vue/React/Angular/ฯลฯ) การทำงานร่วมกันเป็นทีม (Version Control System) ดำเนินการพัฒนาโปรแกรมแบบ Integration ตกแต่งเอกสารด้วย UI Component Library/CSS Framework เขียนโปรแกรมเชื่อมต่อ RESTful API/Web Services เขียนโปรแกรมติดต่อฐานข้อมูลแบบ SQL/NoSQL การทำ Authentication ในรูปแบบ JSON Web Token/Session หาจุดผิดพลาด ตามบันทึกข้อผิดพลาด แก้ไขข้อผิดพลาดของโปรแกรม ทดสอบการแก้ไขข้อผิดพลาดของโปรแกรม อ่าน Functional/Program Specification/UML เขียนโปรแกรมตาม Functional/Program Specification/UML ออกแบบการทดสอบ Integration Test ดำเนินการทดสอบโปรแกรมแบบ Integration Test จัดทำรายงาน ศึกษาการใช้งาน โปรแกรมที่พัฒนาขึ้น จัดทำคู่มือการใช้งานโปรแกรม ตรวจสอบความถูกต้องของคู่มือการใช้งานโปรแกรม การส่งมอบซอฟต์แวร์เพื่อให้สามารถใช้งานได้
+                        </p>
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
 
-    <div id="specsModal" class="custom-modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4>📄 เอกสารข้อกำหนดหลักสูตรฐานสมรรถนะรายวิชา</h4>
-                <span class="close-modal-btn">&times;</span>
-            </div>
-            <div class="modal-body">
-                <table class="info-meta-table">
-                    <tr>
-                        <td><strong>รายวิชา:</strong></td>
-                        <td>การพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End (Software Development with Back-End Technology)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>รหัสวิชา:</strong></td>
-                        <td>31901-2005 (โครงสร้างเวลาเรียน 1 - 4 - 3)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>กลุ่มสมรรถนะ:</strong></td>
-                        <td>วิชาชีพเฉพาะ (กลุ่มสมรรถนะวิชาชีพพื้นฐาน) | <strong>หมวดวิชา:</strong> วิชาชีพ</td>
-                    </tr>
-                    <tr>
-                        <td><strong>สาขาวิชา:</strong></td>
-                        <td>เทคโนโลยีสารสนเทศ | <strong>กลุ่มอาชีพ:</strong> ซอฟต์แวร์และการประยุกต์</td>
-                    </tr>
-                    <tr>
-                        <td><strong>ประเภทวิชา:</strong></td>
-                        <td>อุตสาหกรรมดิจิทัลและเทคโนโลยีสารสนเทศ</td>
-                    </tr>
-                    <tr>
-                        <td><strong>หลักสูตร:</strong></td>
-                        <td>ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) พุทธศักราช 2567</td>
-                    </tr>
-                    <tr>
-                        <td><strong>ผู้สอนวิเคราะห์:</strong></td>
-                        <td>นายพรชัย ตุ่นแก้ว วิทยฐานะ ชำนาญการ ประจำแผนกวิชา เทคโนโลยีสารสนเทศ</td>
-                    </tr>
-                    <tr>
-                        <td><strong>กลุ่มเป้าหมาย:</strong></td>
-                        <td>ผู้เรียนชั้น ปวส. 1 แผนกวิชา เทคโนโลยีสารสนเทศ (ภาคเรียนที่ 1 ปีการศึกษา 2569)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>สถานศึกษา:</strong></td>
-                        <td>วิทยาลัยพณิชยการบางนา สถาบันการอาชีวศึกษากรุงเทพมหานคร สำนักงานคณะกรรมการการอาชีวศึกษา กระทรวงศึกษาธิการ</td>
-                    </tr>
-                    <tr>
-                        <td><strong>อ้างอิงมาตรฐาน:</strong></td>
-                        <td>มาตรฐานอาชีพ สถาบันคุณวุฒิวิชาชีพ อาชีพ นักพัฒนาระบบ ระดับ 4</td>
-                    </tr>
-                </table>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const modal = document.getElementById("specsModal");
+                const btn = document.getElementById("openSpecsBtn");
+                const span = document.getElementsByClassName("close-modal-btn")[0];
 
-                <div class="spec-section-box">
-                    <h5>🎯 ฐานสมรรถนะประจำรายวิชา (Competency Base)</h5>
-                    <p>พัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End เพื่อออกแบบส่วนติดต่อผู้ใช้ตามหลักการ ด้วยความละเอียด รอบคอบ รับผิดชอบ การสื่อสารและการทำงานเป็นทีม โดยใช้การวิจัยเป็นฐานแบบมีส่วนร่วม</p>
-                </div>
-
-                <div class="spec-section-box">
-                    <h5>🎯 ผลลัพธ์การเรียนรู้ระดับรายวิชา (Course Learning Outcomes)</h5>
-                    <p>พัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End เพื่อออกแบบส่วนติดต่อผู้ใช้ตามหลักการ ด้วยความละเอียด รอบคอบ รับผิดชอบ การสื่อสารและการทำงานเป็นทีม</p>
-                </div>
-
-                <div class="spec-section-box">
-                    <h5>🎯 จุดประสงค์รายวิชา (Course Objectives) เพื่อให้:</h5>
-                    <ol>
-                        <li>เข้าใจการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Front-End</li>
-                        <li>มีทักษะในการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Front-End</li>
-                        <li>มีเจตคติและกิจนิสัยที่ดีในการปฏิบัติงานด้วยความละเอียดรอบคอบ รับผิดชอบ การสื่อสาร การคิดเชิงนวัตกรรมและการทำงานเป็นทีม</li>
-                        <li>มีความสามารถประยุกต์ใช้หลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ในงานอาชีพ</li>
-                    </ol>
-                </div>
-
-                <div class="spec-section-box">
-                    <h5>🎯 สมรรถนะรายวิชา (Course Competencies)</h5>
-                    <ol>
-                        <li>ประมวลความรู้เกี่ยวกับหลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ตามหลักการ</li>
-                        <li>พัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ตามหลักการและกระบวนการ</li>
-                        <li>ทดสอบและแก้ไขข้อผิดพลาดของซอฟต์แวร์ ตามหลักการและกระบวนการ</li>
-                        <li>จัดทำคู่มือการใช้งานตามหลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Front-End</li>
-                        <li>ประยุกต์ใช้หลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ในงานอาชีพ</li>
-                    </ol>
-                </div>
-
-                <div class="spec-section-box">
-                    <h5>📖 คำอธิบายรายวิชา (Course Description)</h5>
-                    <p style="text-indent: 40px; text-align: justify; line-height: 1.7;">
-                        ศึกษาและปฏิบัติเกี่ยวกับหลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ความหมาย ความสำคัญ ประโยชน์ของการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End เลือกใช้ภาษาและเทคโนโลยีสมัยใหม่ในการพัฒนา (Vue/React/Angular/ฯลฯ) การทำงานร่วมกันเป็นทีม (Version Control System) ดำเนินการพัฒนาโปรแกรมแบบ Integration ตกแต่งเอกสารด้วย UI Component Library/CSS Framework เขียนโปรแกรมเชื่อมต่อ RESTful API/Web Services เขียนโปรแกรมติดต่อฐานข้อมูลแบบ SQL/NoSQL การทำ Authentication ในรูปแบบ JSON Web Token/Session หาจุดผิดพลาด ตามบันทึกข้อผิดพลาด แก้ไขข้อผิดพลาดของโปรแกรม ทดสอบการแก้ไขข้อผิดพลาดของโปรแกรม อ่าน Functional/Program Specification/UML เขียนโปรแกรมตาม Functional/Program Specification/UML ออกแบบการทดสอบ Integration Test ดำเนินการทดสอบโปรแกรมแบบ Integration Test จัดทำรายงาน ศึกษาการใช้งาน โปรแกรมที่พัฒนาขึ้น จัดทำคู่มือการใช้งานโปรแกรม ตรวจสอบความถูกต้องของคู่มือการใช้งานโปรแกรม การส่งมอบซอฟต์แวร์เพื่อให้สามารถใช้งานได้
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const modal = document.getElementById("specsModal");
-            const btn = document.getElementById("openSpecsBtn");
-            const span = document.getElementsByClassName("close-modal-btn")[0];
-
-            btn.onclick = function() {
-                modal.style.display = "block";
-                document.body.style.overflow = "hidden";
-            }
-            span.onclick = function() {
-                modal.style.display = "none";
-                document.body.style.overflow = "auto";
-            }
-            window.onclick = function(event) {
-                if (event.target == modal) {
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                    document.body.style.overflow = "hidden";
+                }
+                span.onclick = function() {
                     modal.style.display = "none";
                     document.body.style.overflow = "auto";
                 }
-            }
-        });
-    </script>
-    <script src="assets/js/script.js"></script>
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                        document.body.style.overflow = "auto";
+                    }
+                }
+            });
+        </script>
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>
