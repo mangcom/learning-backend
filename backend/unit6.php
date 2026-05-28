@@ -1,3 +1,7 @@
+<?php
+$base_dir = "../"; // ถอยกลับ 1 ชั้นเพื่อไปหาโฟลเดอร์หลัก
+$active_nav = "backend"; // เปิดสถานะเมนูที่วิชา Back-End
+?>
 <!DOCTYPE html>
 <html lang="th">
 
@@ -133,8 +137,7 @@
 <body>
 
     <?php include '../components/navbar.php'; ?>
-
-    <div class="page-header">
+    <div class="page-header" style="background-color: var(--secondary); color: var(--white); padding: 40px 0;">
         <div class="container">
             <a href="index.php" class="back-link">
                 <span class="arrow-icon">⬅</span>

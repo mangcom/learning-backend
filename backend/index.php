@@ -1,3 +1,7 @@
+<?php
+$base_dir = "../"; // ถอยกลับ 1 ชั้นเพื่อไปหาโฟลเดอร์หลัก
+$active_nav = "backend"; // เปิดสถานะเมนูที่วิชา Back-End
+?>
 <!DOCTYPE html>
 <html lang="th">
 
@@ -15,7 +19,7 @@
 
     <?php include '../components/navbar.php'; ?>
 
-    <div class="page-header">
+    <div class="page-header" style="background-color: var(--secondary); color: var(--white); padding: 40px 0;">
         <div class="container">
             <span class="course-code">💻 รหัสวิชา: 31901-2005 | หลักสูตร ปวส. 2567</span>
             <h2>การพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End</h2>
@@ -216,7 +220,7 @@
                     <table class="info-meta-table">
                         <tr>
                             <td><strong>รายวิชา:</strong></td>
-                            <td>การพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End (Software Development with Back-End Technology)</td>
+                            <td>การพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End <br> (Software Development with Back-End Technology)</td>
                         </tr>
                         <tr>
                             <td><strong>รหัสวิชา:</strong></td>
@@ -251,7 +255,7 @@
                             <td>วิทยาลัยพณิชยการบางนา สถาบันการอาชีวศึกษากรุงเทพมหานคร สำนักงานคณะกรรมการการอาชีวศึกษา กระทรวงศึกษาธิการ</td>
                         </tr>
                         <tr>
-                            <td><strong>อ้างอิงมาตรฐาน:</strong></td>
+                            <td><strong>อ้างอิงมาตรฐานวิชาชีพ:</strong></td>
                             <td>มาตรฐานอาชีพ สถาบันคุณวุฒิวิชาชีพ อาชีพ นักพัฒนาระบบ ระดับ 4</td>
                         </tr>
                     </table>
@@ -267,11 +271,14 @@
                     </div>
 
                     <div class="spec-section-box">
-                        <h5>🎯 จุดประสงค์รายวิชา (Course Objectives) เพื่อให้:</h5>
+                        <h5>🎯 จุดประสงค์รายวิชา (Course Objectives)</h5>
+                        <div><strong>เพื่อให้:</strong> </div>
                         <ol>
-                            <li>เข้าใจการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Front-End</li>
-                            <li>มีทักษะในการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Front-End</li>
-                            <li>มีเจตคติและกิจนิสัยที่ดีในการปฏิบัติงานด้วยความละเอียดรอบคอบ รับผิดชอบ การสื่อสาร การคิดเชิงนวัตกรรมและการทำงานเป็นทีม</li>
+                            <li>เข้าใจการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End</li>
+                            <li>มีทักษะในการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End</li>
+                            <li>มีเจตคติและกิจนิสัยที่ดีในการปฏิบัติงานด้วยความละเอียดรอบคอบ รับผิดชอบ การสื่อสาร
+                                การคิดเชิงนวัตกรรมและการทำงานเป็นทีม
+                            </li>
                             <li>มีความสามารถประยุกต์ใช้หลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ในงานอาชีพ</li>
                         </ol>
                     </div>
@@ -290,7 +297,7 @@
                     <div class="spec-section-box">
                         <h5>📖 คำอธิบายรายวิชา (Course Description)</h5>
                         <p style="text-indent: 40px; text-align: justify; line-height: 1.7;">
-                            ศึกษาและปฏิบัติเกี่ยวกับหลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ความหมาย ความสำคัญ ประโยชน์ของการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End เลือกใช้ภาษาและเทคโนโลยีสมัยใหม่ในการพัฒนา (Vue/React/Angular/ฯลฯ) การทำงานร่วมกันเป็นทีม (Version Control System) ดำเนินการพัฒนาโปรแกรมแบบ Integration ตกแต่งเอกสารด้วย UI Component Library/CSS Framework เขียนโปรแกรมเชื่อมต่อ RESTful API/Web Services เขียนโปรแกรมติดต่อฐานข้อมูลแบบ SQL/NoSQL การทำ Authentication ในรูปแบบ JSON Web Token/Session หาจุดผิดพลาด ตามบันทึกข้อผิดพลาด แก้ไขข้อผิดพลาดของโปรแกรม ทดสอบการแก้ไขข้อผิดพลาดของโปรแกรม อ่าน Functional/Program Specification/UML เขียนโปรแกรมตาม Functional/Program Specification/UML ออกแบบการทดสอบ Integration Test ดำเนินการทดสอบโปรแกรมแบบ Integration Test จัดทำรายงาน ศึกษาการใช้งาน โปรแกรมที่พัฒนาขึ้น จัดทำคู่มือการใช้งานโปรแกรม ตรวจสอบความถูกต้องของคู่มือการใช้งานโปรแกรม การส่งมอบซอฟต์แวร์เพื่อให้สามารถใช้งานได้
+                            ศึกษาและปฏิบัติเกี่ยวกับหลักการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End ความหมาย ความสำคัญ ประโยชน์ของการพัฒนาซอฟต์แวร์ด้วยเทคโนโลยี Back-End เลือกใช้ภาษาและเทคโนโลยีสมัยใหม่ในการพัฒนา (Vue/React/Angular/ฯลฯ ) การทำงานร่วนกันเป็นทีม(Version Control System) ดำเนินการพัฒนาโปรแกรมแบบ Integration ตกแต่งเอกสารด้วย UI Component Library/CSS Framework เขียนโปรแกรมเชื่อมต่อ RESTful API/Web Services เขียนโปรแกรมติดต่อฐานข้อมูลแบบ SQL/NoSQL การทำ Authentication ในรูปแบบ JSON Web Token/Session หาจุดผิดพลาด ตามบันทึกข้อผิดพลาด แก้ไขข้อผิดพลาดของโปรแกรม ทดสอบการแก้ไขข้อผิดพลาดของโปรแกรม อ่าน Functional/Program Specification/UML เขียนโปรแกรมตาม Functional/Program Specification/ UML ออกแบบการทดสอบ Integration Test ดำเนินการทดสอบโปรแกรมแบบ Integration Test จัดทำรายงาน ศึกษาการใช้งาน โปรแกรมที่พัฒนาขึ้น จัดทำคู่มือการใช้งานโปรแกรม ตรวจสอบความถูกต้องของคู่มือการใช้งานโปรแกรม การส่งมอบซอฟต์แวร์เพื่อให้สามารถใช้งานได้
                         </p>
                     </div>
                 </div>
