@@ -29,6 +29,7 @@ jobs:
 
             cd /var/www/html/apps/learning
 
+
             git fetch origin
 
             git reset --hard origin/main
